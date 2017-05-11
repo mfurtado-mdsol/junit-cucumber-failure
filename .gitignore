@@ -1,0 +1,26 @@
+# VS Code files
+.vscode/
+
+# Temp files
+*.tmp
+*.bak
+*.swp
+
+# Mac
+.DS_Store
+
+# npm modules
+node_modules
+error-shots
+/build
+.npmrc
+npm-debug.log
+
+
+# remove coverage and ui dist files
+coverage
+build
+
+# cucumber reports
+cucumber-reports.html
+reports

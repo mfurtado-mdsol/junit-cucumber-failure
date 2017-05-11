@@ -1,0 +1,34 @@
+{
+  "name": "junit-cucumber-failure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio",
+    "test:report": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfurtado-mdsol/junit-cucumber-failure.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfurtado-mdsol/junit-cucumber-failure/issues"
+  },
+  "homepage": "https://github.com/mfurtado-mdsol/junit-cucumber-failure#readme",
+  "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "babel-runtime": "^6.23.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",    
+    "wdio-cucumber-framework": "ssh://git@github.com/machnicki/wdio-cucumber-framework.git#build",
+    "wdio-junit-reporter": "^0.3.0",
+    "wdio-selenium-standalone-service": "0.0.7",
+    "wdio-spec-reporter": "0.0.5",
+    "webdriverio": "^4.6.1"
+  }
+}
